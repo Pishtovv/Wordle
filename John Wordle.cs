@@ -89,8 +89,8 @@ namespace Wordle
                 var game = new Game(words);
                 game.Run();
 
-                Console.Write("\nPlay again? (yess or no): ");
-                if (Console.ReadLine()?.Trim().ToLower() != "y")
+                Console.Write("\nPlay again? (yes or no): ");
+                if (Console.ReadLine()?.Trim().ToLower() != "yes")
                     break;
             }
         }
